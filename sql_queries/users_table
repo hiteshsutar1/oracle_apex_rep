@@ -1,0 +1,4 @@
+CREATE TABLE users (
+    username           VARCHAR2(100) PRIMARY KEY,
+    encrypted_password VARCHAR2(4000)
+);
